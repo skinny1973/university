@@ -1,0 +1,69 @@
+🏛️ Politicians:
+Leadership, rhetoric, diplomacy, strategic vision, use of interpretation, improvisation, comic and tragic traits, emotional expression, stage presence, argumentative skills, attention-seeking.
+
+🤹‍♂️ Comedians:
+Make people laugh, improvisation, social observation, emotional expression, stage presence, attention-seeking, search for inspiration, comic and tragic traits.
+
+🎭 Actors:
+Interpretation, emotional expression, stage presence, attention-seeking.
+
+✍️ Writers:
+Narrative creativity, argumentative skills, search for inspiration.
+
+
+Q1. SQL Set Operation UNION: Choose any two or more of the data sets in your Venn diagram. Which elements would be included in the union of those data sets?
+
+A1: I choose Politicians and Comedians. When I union those two data sets together, these are the included elements: 
+improvisation
+emotional expression
+stage presence
+attention-seeking
+comic and tragic traits
+
+
+Q2: SQL Set Operation INTERSECT: How would you describe one segment of your Venn diagram that represents the intersection of at least three of your data sets?
+
+A2: Politicians, Comedians, and Actors share:
+Emotional expression, stage presence, and attention-seeking. 
+
+
+Q3: SQL Set Operation EXCEPT: Choose any two or more of the data sets in your Venn diagram. Find an outlier element. Describe what excluding this outlier element using except logic means for your data sets.
+
+A3: I chose the Politicians and Comedians data sets. By excluding the "comic and tragic traits," both groups become less theatrically expressive and more focused on the serious aspects of their roles. Without comic and tragic traits, Politicians might appear more serious and less theatrically expressive, while Comedians would lose a major part of their humor that often draws from the dramatic side of life.
+
+
+Q4: SQL Join Operation INNER: Using all of the data sets in your Venn diagram, which segment represents the results of an inner join? If this does not apply to your specific Venn diagram, explain why not.
+
+A4: The inner join result for my four data sets would no results because there is no single element that is common to all four groups. 
+
+
+Q5: SQL Join Operation LEFT: Using any two of the data sets in your Venn diagram, how would you describe the results of a left join?
+
+A5: I choose Comedians and Writes. A left join means all the elements from Comedians are returned, and only those that match from Writes:
+Make people laugh
+Improvisation
+Social observation
+Emotional expression
+Stage presence
+Attention-seeking
+Search for inspiration
+Comic and tragic traits.
+
+
+Q8: What is the most interesting thing you learned from your Venn diagram? How would you describe this knowledge using SQL set operations or joins?
+
+A8: This diagram showed me that Politicians have more in common with Comedians than with Actors or Writers. They INTERSECT with Comedians through improvisation, comic and tragic traits, emotional expression, stage presence, and attention-seeking. They EXCLUDE “make people laugh,” even if reality shows they can be a great source of laughter. They also EXCLUDE “social observation,” which may explain why some of them appear disconnected from reality. And they are EXCLUDED from Writers’ characteristics like narrative creativity, argumentative skills, and the search for inspiration—qualities that could actually help them to acquire.
+
+
+
+🏛️ Politicians
+They aim for leadership and strategy, but sometimes what comes out sounds more like stand-up comedy than serious policy. Whether it’s suggesting Gaza could be a lovely beach resort, or turning a press conference into improv theatre, their performances often blur the line between public service and sketch show. Still, they do love attention—just like any good entertainer.
+
+🤹‍♂️ Comedians
+Born to entertain, skilled in making us laugh while cleverly pointing out society’s flaws. They improvise, express emotion, and—like politicians—absolutely love the spotlight.
+
+🎭 Actors
+Masters of interpretation and stage presence. Whether it's comedy or tragedy, they know how to win attention without promising to fix the economy.
+
+✍️ Writers
+Quiet behind the scenes, crafting stories and ideas. They argue without shouting and seek inspiration without a press conference.
